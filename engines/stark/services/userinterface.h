@@ -52,7 +52,6 @@ class SaveMenuScreen;
 class LoadMenuScreen;
 class FMVMenuScreen;
 class DiaryPagesScreen;
-class DialogScreen;
 class Cursor;
 class FMVScreen;
 
@@ -166,7 +165,6 @@ private:
 	LoadMenuScreen *_loadMenuScreen;
 	FMVMenuScreen *_fmvMenuScreen;
 	DiaryPagesScreen *_diaryPagesScreen;
-	DialogScreen *_dialogScreen;
 	Screen *_currentScreen;
 	Common::Stack<Screen::Name> _prevScreenNameStack;
 

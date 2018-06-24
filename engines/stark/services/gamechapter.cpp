@@ -61,12 +61,8 @@ GameChapter::GameChapter() {
 	}
 }
 
-const Common::String &GameChapter::getCurrentChapterTitle() const {
-	return getChapterTitle(StarkGlobal->getCurrentChapter());
-}
-
-const Common::String &GameChapter::getCurrentChapterSubtitle() const {
-	return getChapterSubtitle(StarkGlobal->getCurrentChapter());
+int GameChapter::getActualCurrentChapter() {
+	return StarkGlobal->getCurrentChapter() / 10;
 }
 
 } // End of namespace Stark

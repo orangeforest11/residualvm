@@ -76,8 +76,6 @@ typedef Common::Functor2<StaticLocationWidget &, const Common::Point &, void> Wi
 
 /**
  * User interface widget bound to a Location RenderEntry
- * 
- * Also used without bounding the RenderEntry, as a base class
  */
 class StaticLocationWidget {
 public:
